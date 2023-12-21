@@ -32,3 +32,17 @@ app/consapp
 ├── rtklib_consapp.groupproj.local
 ├── rtkrcv
 └── str2str
+```
+编译的命令如下：
+```bash
+mkdir build
+cd build
+cmake ..
+make
+
+# 如果要加快编译速度，使用命令
+make -j8
+```
+编译完成后会
+* 在 `bin` 目录下生成 `consapp` 的二进制可执行文件
+* 在 `lib_rtk` 文件夹下生成源码编译好的静态库 `rtklib.a` 文件
