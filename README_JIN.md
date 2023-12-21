@@ -1,0 +1,34 @@
+# 说明
+
+**为原版RTKLIB添加CMakeLists.txt管理**
+
+在原项目的根目录下、src文件夹下、app/consapp下各添加一个CMakeLists.txt
+
+文件夹结构如下：
+```bash
+# src文件夹结构如下
+src
+├── build
+├── rcv
+├── CMakeLists.txt
+├── rtklib.h
+├── convgpx.c
+├── convkml.c
+├── convrnx.c
+├── postpos.c
+├── ...
+
+
+# app/consapp文件夹结构如下
+app/consapp
+├── clean_consapp.bat
+├── CMakeLists.txt
+├── convbin
+├── install_consapp.bat
+├── makefile
+├── pos2kml
+├── rnx2rtkp
+├── rtklib_consapp.groupproj
+├── rtklib_consapp.groupproj.local
+├── rtkrcv
+└── str2str
