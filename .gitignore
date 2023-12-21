@@ -10,6 +10,7 @@ Debug_Build
 __history
 __astcache
 
+.idea
 output
 *build*
 *.a
