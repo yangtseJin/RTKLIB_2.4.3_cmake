@@ -29,13 +29,6 @@ set(EXECUTABLE_OUTPUT_PATH ${EXEC_PATH})
 # 设置编译好的库的名称
 set(LIB_NAME rtklib)
 
-# 搜索指定目录下源文件,两种方法选一个即可
-# 将源文件存储到变量 RTKLIB_SRC 中
-# 法1
-file(GLOB_RECURSE RTKLIB_SRC ${SRC_PATH}/*.c)
-# 法2
-# aux_source_directory(${SRC_PATH} RTKLIB_SRC)
-
 
 # 安装库，新手一般不需要使用
 # 指定安装路径

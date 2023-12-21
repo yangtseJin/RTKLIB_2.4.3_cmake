@@ -10,7 +10,7 @@ Debug_Build
 __history
 __astcache
 
-*.a
-*.so
 output
 *build*
+*.a
+*.so
